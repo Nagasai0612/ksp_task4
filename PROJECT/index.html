@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--title tag-->
+        <title>Feedback Form</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+          
+        </style>
+    </head>
+    <body>
+        <!--form tag-->
+        <b><h1><u>FEEDBACK FORM</u></h1></b>
+        <form id="class">
+            
+            <!--first name-->
+            <!--label tag-->
+            <br>
+            <label>First Name:-</label>
+            <!--input tag-->
+            <input for="First Name" type="text"  placeholder="First Name" required><br><br>
+            <!--last name-->
+            <label>Last Name:-</label>
+            <input for="Last Name" type="text" placeholder="Last Name" required><br><br>
+            <!--Date Of Birth-->
+            <label>Date Of Birth:-</label>
+            <input for="Date Of Birth" type="date" required><br><br> 
+            <!--Phone Number-->
+            <label>Phone Number:-</label>
+            <input for="Phone Number" type="number" placeholder="Enter your Number"required><br><br>
+            <!--Email id-->
+            <label>Email id:-</label>
+            <input for="Email id" type="email" placeholder="email@gmail.com"required><br><br>
+         
+            <!--Gender-->
+            <label>Gender:-</label><br>
+            <input type="radio" id="male" name="GENDER" value="MALE">
+            <label for="male" id="sample">Male</label>
+            <input type="radio" id="female" name="GENDER" value="FEMALE">
+            <label for="female" id="sample">Female</label><br><br>
+            
+           
+            <label for="Security Question">Security question:</label>
+            <!--select tag-->
+            <br><select name="security-question">
+            <option value="first-pet-name">what is your first pet</option>
+            <option value="first-school-name">what is your first school</option>
+            <option value="nick-name">what is your nick Name</option>
+            </select>
+            
+            <!--feedback-->
+            <br><br><label>Feedback:-</label><br>
+            <textarea for="msg" rows="5" cols="30">Write your Feedback here!</textarea><br>
+
+            <!--T&C-->
+            <input type="checkbox" value="terms and conditions">i agree for terms and conditions
+            <!--submit button-->
+            <br>
+            <br><input type="submit" value="submit">
+        </form>
+    </body>
+    <script>
+        alert("Thank you for your visit to the Feedback section");
+    </script>
+
+</html>
